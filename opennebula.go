@@ -473,7 +473,7 @@ func (d *Driver) Create() error {
 			vmtemplate = goca.NewTemplate(uint(templateID))
 		}
 
-		_, err = vmtemplate.Instantiate(d.MachineName, false, template.String())
+		_, err = vmtemplate.Instantiate(d.MachineName, false, template.String(), true)
 
 	} else {
 		_, err = goca.CreateVM(template.String(), false)
