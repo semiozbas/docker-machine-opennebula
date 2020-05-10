@@ -1,11 +1,11 @@
 {
-	"ImportPath": "github.com/OpenNebula/docker-machine-opennebula",
+	"ImportPath": "github.com/semiozbas/docker-machine-opennebula",
 	"GoVersion": "go1.9",
-	"GodepVersion": "v79",
+	"GodepVersion": "v80",
 	"Deps": [
 		{
-			"ImportPath": "github.com/OpenNebula/goca",
-			"Rev": "39640cef9bfb9058b2aeb437aa05b1be1b8e4f35"
+			"ImportPath": "github.com/semiozbas/goca",
+			"Rev": "7b857460d554e403fa831b3bf8e8cc2096edc1da"
 		},
 		{
 			"ImportPath": "github.com/docker/docker/pkg/term",
