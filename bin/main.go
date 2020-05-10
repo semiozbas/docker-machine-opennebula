@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/OpenNebula/docker-machine-opennebula"
+	"github.com/semiozbas/docker-machine-opennebula"
 	"github.com/docker/machine/libmachine/drivers/plugin"
 )
 
